@@ -37,8 +37,10 @@ const SpeakerInfo = [
   },
 ];
 
+const SectionSpeaker = document.querySelector('#speakers');
+const SpeakDesk = document.createElement('div');
+SpeakDesk.className = 'flexrowDesk speakDesk';
 for (let i = 0; i < SpeakerInfo.length; i += 1) {
-  const SectionSpeaker = document.querySelector('#speakers');
   const DivSpeaker = document.createElement('div');
   DivSpeaker.className = 'speaker flexrow';
   DivSpeaker.innerHTML = `
@@ -52,5 +54,6 @@ for (let i = 0; i < SpeakerInfo.length; i += 1) {
         <p class="about">${SpeakerInfo[i].description}</p>
       </div>
     `;
-  SectionSpeaker.appendChild(DivSpeaker);
+  SpeakDesk.appendChild(DivSpeaker);
 }
+SectionSpeaker.appendChild(SpeakDesk);
