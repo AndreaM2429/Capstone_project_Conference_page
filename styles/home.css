@@ -28,7 +28,7 @@ body {
 .description {
   background-color: #d3d3d3;
   color: #1d1c1c;
-  border: #ffffff solid 3px;
+  border: #fff solid 3px;
   padding: 15px;
 }
 
@@ -43,7 +43,7 @@ body {
 }
 
 .subtit {
-  color: #ffffff;
+  color: #fff;
   font-size: 26px;
   margin-bottom: 15px;
 }
@@ -215,7 +215,7 @@ footer img {
 
 /* FOOTER */
 footer {
-  background-color: #ffffff;
+  background-color: #fff;
   height: 130px;
   justify-content: center;
   padding: 0 20px;
