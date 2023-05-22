@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
 * {
   font-family: 'Lato', sans-serif;
 }
 
 body {
   margin: 0;
+}
+
+.desktop {
+  display: none;
 }
 
 .margintop {
@@ -120,10 +126,10 @@ footer img {
 .linea {
   background-color: #ec5242;
   height: 2px;
-  min-width: 70px;
+  width: 70px;
 }
 
-.program ul {
+.ul {
   list-style-type: none;
   padding: 4%;
   gap: 12px;
@@ -154,6 +160,10 @@ footer img {
 
 .st2 {
   color: #1d1c1c;
+}
+
+.sp2 {
+  align-items: center;
 }
 
 .mb {
@@ -220,4 +230,155 @@ footer {
   justify-content: center;
   padding: 0 20px;
   gap: 16px;
+}
+
+@media (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+
+  .flexrowDesk {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .flexcolumDesk {
+    flex-direction: column;
+  }
+
+  .mt {
+    margin-top: 20px;
+  }
+
+  .sbdesk {
+    color: #969696;
+  }
+
+  .navsup {
+    background-color: #1d1c1c;
+    width: 100%;
+    justify-content: end;
+    height: 30px;
+  }
+
+  .navsup img {
+    height: 20px;
+    padding-left: 10px;
+  }
+
+  .ul {
+    padding: 2px 15px;
+    gap: 40px;
+  }
+
+  .navsup li {
+    color: #fff;
+    font-size: 12px;
+  }
+
+  .navdesk {
+    background-color: #fff;
+    height: 65px;
+    justify-content: space-evenly;
+  }
+
+  .navdesk img {
+    height: 45px;
+  }
+
+  .navdesk li {
+    font-size: 18px;
+    color: #3f3c3c;
+    font-weight: 600;
+  }
+
+  .navdesk button {
+    border: #ec5242 solid 3px;
+    color: #ec5242;
+    background-color: #fff;
+    width: 150px;
+    height: 50px;
+  }
+
+  /* HEADING */
+  .heading {
+    padding: 164px 125px 73px;
+  }
+
+  .fontsec {
+    font-size: 40px;
+  }
+
+  .fontitul {
+    font-size: 65px;
+    line-height: 62px;
+  }
+
+  .description {
+    width: 500px;
+    margin-top: 12px;
+  }
+
+  h2 {
+    padding-top: 18px;
+  }
+
+  h2,
+  .heading .p {
+    margin-top: 5px;
+  }
+
+  /* PROGRAM */
+  .ul2 {
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .program {
+    padding: 18px 0;
+  }
+
+  .program li {
+    width: 210px;
+    height: 175px;
+    padding: 22px 10px;
+    text-align: center;
+  }
+
+  .program h4,
+  .program p {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+
+  .program a {
+    color: #fff;
+    margin-bottom: 80px;
+    margin-top: 45px;
+  }
+
+  /* PARTNERS */
+  .partners img {
+    width: 150px;
+  }
+
+  /* SPEAKERS */
+  .speaker {
+    width: 40%;
+  }
+
+  .speakDesk {
+    padding: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* FOOTER */
+  footer {
+    font-size: 22px;
+    height: 150px;
+  }
 }
