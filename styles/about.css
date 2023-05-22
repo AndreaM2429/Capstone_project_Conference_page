@@ -1,0 +1,94 @@
+.heading {
+  background-color: #f3f3f3;
+  background-image: none;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.db {
+  background-color: #fff;
+  border: #d3d3d3 solid 1px;
+  color: #474545;
+}
+
+.description2 {
+  background-color: #fff;
+  border: #d3d3d3 solid 1px;
+  color: #474545;
+  width: 100%;
+  margin-top: 25px;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 25px;
+}
+
+.description2 img {
+  width: 70%;
+}
+
+.contact {
+  color: #313131;
+  line-height: 25px;
+  margin-top: 27px;
+}
+
+.heading a {
+  color: #313131;
+  font-weight: 600;
+}
+
+.aboutLogo {
+  text-align: center;
+  padding: 20px 25px;
+  align-items: center;
+  border-bottom: #d3d3d3 solid 2px;
+}
+
+.st3 {
+  color: #313131;
+  margin-bottom: 9px;
+}
+
+.linea3 {
+  background-color: #ec5242;
+  height: 1px;
+  width: 30px;
+}
+
+.past {
+  align-items: center;
+  text-align: center;
+  padding: 5px 20px 40px 20px;
+}
+
+.fcpast div {
+  width: 100%;
+  height: 100%;
+  background-color: #ec5342a6;
+  justify-content: center;
+  color: #fff;
+  gap: 10px;
+}
+
+.fcpast {
+  width: 100%;
+  height: 300px;
+  background-image: url('../Img/2022.webp');
+  background-size: 100% 100%;
+}
+
+.fcpast p {
+  font-size: 38px;
+  margin: 0;
+  font-weight: 900;
+}
+
+.fcpast h4 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.fc2 {
+  background-image: url('../Img/2021.jpg');
+}
