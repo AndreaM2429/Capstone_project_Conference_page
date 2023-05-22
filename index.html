@@ -4,15 +4,35 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/home.css" />
     <title>Friki Corner</title>
   </head>
   <body>
     <header>
       <nav>
+        <div class="desktop flexrowDesk navsup">
+          <img src="Img/FaceIcon.png" alt="Facebook">
+          <img src="Img/TwitterIcon.png" alt="Twitter">
+          <ul class="ul flexrow">
+            <li>Logout</li>
+            <li>MyPage</li>
+            <li>Mexico</li>
+          </ul>
+        </div>
+        <div class="desktop flexrowDesk navdesk">
+          <img src="Img/logo.png" alt="">
+          <ul class="ul flexrow">
+            <li>About</li>
+            <li>Program</li>
+            <li>Join</li>
+            <li>Sponsor</li>
+            <li>News</li>
+            <li><button>Friki Corner</button></li>
+          </ul>
+        </div>
         <div class="mobmenu flexrow">
-          <div>
+          <div class="mobile">
             <img id="hambur" src="Img/mobile_menu.png" alt="Menu icon" />
           </div>
         </div>
@@ -35,49 +55,52 @@
       <section class="program flexcolum">
         <h3 class="subtit">Main Program</h3>
         <div class="linea"></div>
-        <div>
-          <ul class="flexcolum">
-            <li class="flexrow">
+        <div class="mt">
+          <ul class="flexcolum ul flexrowDesk ul2">
+            <li class="flexrow flexcolumDesk">
               <img src="Img/Program/contest.png" alt="Contest" />
               <h4>Cosplay contest</h4>
               <p>
                 Enroll or enjoy of the best cosplays in the contest where we have amazing prizes.
               </p>
             </li>
-            <li class="flexrow">
+            <li class="flexrow flexcolumDesk">
               <img src="Img/Program/autographs.png" alt="autographs" />
               <h4>Meet & Greet</h4>
               <p>Meet your favorite voice actor or cartoonist and get an autograph and photo.</p>
             </li>
-            <li class="flexrow">
+            <li class="flexrow flexcolumDesk">
               <img src="Img/Program/shoping.png" alt="Shoping" />
               <h4>Shopping</h4>
               <p>Get some collectibles and limit edition from your favorite character.</p>
             </li>
-            <li class="flexrow">
+            <li class="flexrow flexcolumDesk">
               <img src="Img/Program/panels.png" alt="Panels" />
               <h4>Panels and conferences</h4>
               <p>
                 Listen the directors and actors in our panels and conferences.
               </p>
             </li>
-            <li class="flexrow">
+            <li class="flexrow flexcolumDesk">
               <img src="Img/Program/gaming.png" alt="Gaming">
               <h4>Gaming</h4>
               <p>Test the new game demo, and be able to participate in multilayer games.</p>
             </li>
           </ul>
         </div>
-        <button>Join to Friki Corner 2023</button>
+        <button class="mobile">Join to Friki Corner 2023</button>
+        <a href="#" class="desktop flexrowDesk">SEE THE WHOLE PROGRAM</a>
       </section>
 
       <section id="speakers" class="flexcolum">
-        <h3 class="subtit st2">Featured Speakers</h3>
-        <div class="linea mb"></div>
+        <div class="flexcolum sp2">
+          <h3 class="subtit st2">Featured Speakers</h3>
+          <div class="linea mb"></div>
+        </div>
       </section>
 
       <section class="partners flexcolum">
-        <h3 class="subtit">Partner</h3>
+        <h3 class="subtit sbdesk">Partner</h3>
         <div class="linea"></div>
         <div class="brands flexrow">
           <img src="Img/Partners/att.png" alt="AT&T">
