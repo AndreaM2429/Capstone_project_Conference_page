@@ -1,4 +1,4 @@
-.fontitul{
+.fontitul {
   margin-bottom: 30px;
 }
 
@@ -101,8 +101,8 @@
 }
 
 @media (min-width: 768px) {
-  .fontitul{
-    margin-bottom: 0px;
+  .fontitul {
+    margin-bottom: 0;
   }
 
   .heading {
@@ -121,8 +121,8 @@
   .contact {
     margin-bottom: 50px;
   }
-  
-  .mbd{
+
+  .mbd {
     margin-bottom: 25px;
   }
 
