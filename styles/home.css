@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 
+.effect:hover {
+  border: #fff solid 3px;
+}
+
+.select:hover {
+  color: #ec5242;
+}
+
 * {
   font-family: 'Lato', sans-serif;
 }
@@ -19,16 +27,17 @@ body {
 
 .fontitul {
   color: #ec5242;
-  font-size: 45px;
+  font-size: 56px;
   font-weight: 900;
-  line-height: 46px;
+  line-height: 53px;
 }
 
 .fontsec {
   color: #ec5242;
-  font-size: 25px;
+  font-size: 38px;
   font-weight: 500;
-  padding-bottom: 5px;
+  padding-bottom: 7px;
+  line-height: 37px;
 }
 
 .description {
@@ -50,12 +59,12 @@ body {
 
 .subtit {
   color: #fff;
-  font-size: 26px;
+  font-size: 28px;
   margin-bottom: 15px;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 900;
   margin: 0;
   color: #1d1c1c;
@@ -89,7 +98,7 @@ footer img {
   top: 0;
   left: 0;
   height: 100vh;
-  width: 250px;
+  width: 100%;
   margin-left: -100%;
   transition: all 0.2s linear;
   background-color: #ec5342ee;
@@ -142,9 +151,9 @@ footer img {
 }
 
 .program h4 {
-  width: 30%;
+  min-width: 30%;
   color: #ec5242;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 700;
 }
 
@@ -174,6 +183,7 @@ footer img {
   gap: 10px;
   padding: 5px 10px;
   height: 120px;
+  max-width: 650px;
 }
 
 .program button {
@@ -314,6 +324,13 @@ footer {
     justify-content: space-evenly;
   }
 
+  .divop {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
   .navdesk img {
     height: 45px;
   }
@@ -334,7 +351,7 @@ footer {
   }
 
   .heading {
-    padding: 164px 125px 73px;
+    padding: 164px 125px 73px 14%;
   }
 
   .fontsec {
@@ -342,13 +359,14 @@ footer {
   }
 
   .fontitul {
-    font-size: 65px;
-    line-height: 62px;
+    font-size: 80px;
+    line-height: 81px;
   }
 
   .description {
-    width: 500px;
+    max-width: 750px;
     margin-top: 12px;
+    font-size: 26px;
   }
 
   h2 {
@@ -398,10 +416,17 @@ footer {
     padding: 15px 15px 50px;
     flex-wrap: wrap;
     justify-content: center;
+    max-width: 1600px;
   }
 
   footer {
     font-size: 22px;
     height: 150px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .divop {
+    width: 1600px;
   }
 }
