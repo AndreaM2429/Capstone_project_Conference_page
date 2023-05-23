@@ -127,6 +127,7 @@ footer img {
   color: #1d1c1c;
   padding-bottom: 40px;
   margin-bottom: 0;
+  margin-top: 5px;
 }
 
 /* PROGRAM */
@@ -161,6 +162,10 @@ footer img {
   list-style-type: none;
   padding: 4%;
   gap: 12px;
+}
+
+.ul a {
+  text-decoration: none;
 }
 
 .program li {
@@ -315,7 +320,7 @@ footer {
     height: 45px;
   }
 
-  .navdesk li {
+  .navdesk li, .navdesk a {
     font-size: 18px;
     color: #3f3c3c;
     font-weight: 600;
@@ -352,8 +357,7 @@ footer {
     padding-top: 18px;
   }
 
-  h2,
-  .heading .p {
+  h2{
     margin-top: 5px;
   }
 
@@ -399,7 +403,7 @@ footer {
   }
 
   .speakDesk {
-    padding: 15px;
+    padding: 15px 15px 50px;
     flex-wrap: wrap;
     justify-content: center;
   }
