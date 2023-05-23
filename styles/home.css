@@ -61,7 +61,6 @@ h2 {
   color: #1d1c1c;
 }
 
-/* HEADER */
 header {
   position: fixed;
   width: 100%;
@@ -104,6 +103,10 @@ footer img {
   gap: 15px;
 }
 
+.menu a {
+  color: #272a31;
+}
+
 .menu img {
   width: 45px;
 }
@@ -113,7 +116,6 @@ footer img {
   margin-left: 0;
 }
 
-/* HEADING */
 .heading {
   background-image: url('../Img/heading.jpg');
   background-size: 100% 100%;
@@ -127,9 +129,9 @@ footer img {
   color: #1d1c1c;
   padding-bottom: 40px;
   margin-bottom: 0;
+  margin-top: 5px;
 }
 
-/* PROGRAM */
 .program {
   background-image: url('../Img/op1.png');
   align-items: center;
@@ -163,6 +165,10 @@ footer img {
   gap: 12px;
 }
 
+.ul a {
+  text-decoration: none;
+}
+
 .program li {
   background-color: #4242429a;
   gap: 10px;
@@ -180,7 +186,6 @@ footer img {
   margin-bottom: 28px;
 }
 
-/* SPEAKERS */
 #speakers {
   background-color: #fff;
   align-items: center;
@@ -233,7 +238,6 @@ footer img {
   font-size: 14px;
 }
 
-/* PARTNERS */
 .partners {
   background-color: #3f3c3c;
   align-items: center;
@@ -251,7 +255,6 @@ footer img {
   padding: 15px;
 }
 
-/* FOOTER */
 footer {
   background-color: #fff;
   height: 130px;
@@ -315,7 +318,8 @@ footer {
     height: 45px;
   }
 
-  .navdesk li {
+  .navdesk li,
+  .navdesk a {
     font-size: 18px;
     color: #3f3c3c;
     font-weight: 600;
@@ -329,7 +333,6 @@ footer {
     height: 50px;
   }
 
-  /* HEADING */
   .heading {
     padding: 164px 125px 73px;
   }
@@ -350,14 +353,9 @@ footer {
 
   h2 {
     padding-top: 18px;
-  }
-
-  h2,
-  .heading .p {
     margin-top: 5px;
   }
 
-  /* PROGRAM */
   .ul2 {
     gap: 10px;
     justify-content: center;
@@ -388,23 +386,20 @@ footer {
     margin-top: 45px;
   }
 
-  /* PARTNERS */
   .partners img {
     width: 150px;
   }
 
-  /* SPEAKERS */
   .speaker {
     width: 40%;
   }
 
   .speakDesk {
-    padding: 15px;
+    padding: 15px 15px 50px;
     flex-wrap: wrap;
     justify-content: center;
   }
 
-  /* FOOTER */
   footer {
     font-size: 22px;
     height: 150px;

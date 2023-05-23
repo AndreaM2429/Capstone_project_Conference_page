@@ -1,3 +1,7 @@
+.fontitul {
+  margin-bottom: 30px;
+}
+
 .heading {
   background-color: #f3f3f3;
   background-image: none;
@@ -30,7 +34,6 @@
 .contact {
   color: #313131;
   line-height: 25px;
-  margin-top: 27px;
 }
 
 .heading a {
@@ -98,6 +101,10 @@
 }
 
 @media (min-width: 768px) {
+  .fontitul {
+    margin-bottom: 0;
+  }
+
   .heading {
     align-items: center;
   }
@@ -113,6 +120,10 @@
 
   .contact {
     margin-bottom: 50px;
+  }
+
+  .mbd {
+    margin-bottom: 25px;
   }
 
   .st3 {
