@@ -179,6 +179,12 @@ You can deploy this project Following the instructions in this [link](https://pa
 
 ## 👥 Author <a name="authors"></a>
 
+🌟👤🌟 **Cindy Shin in Behance (Desing author)**
+
+As I mentioned in the about section the design of this project isn’t mine, the design author is Cindy Shin in Behance and you can fins her works [here]( https://www.behance.net/adagio07) and [here]( https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) is the original design.
+As you can see I made some changes to the design such as images, backgrounds and content of the page but it doesn’t mean that is my design. I give all the design credit to the real design author. 
+
+
 👤 **Andrea Manuel**
 
 - GitHub: [@AndreaM2429](https://github.com/AndreaM2429)
@@ -213,7 +219,7 @@ If you like this project you could clone the repo and work with it or do the cha
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my coding partners and my stand up team that help me to understand and finish this project.
+I would like to thank all my partners since the beginning of this crossing because I have learned a lot from them, and they had helped me to keep motivated and don’t give up this program.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
