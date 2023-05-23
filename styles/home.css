@@ -103,6 +103,10 @@ footer img {
   gap: 15px;
 }
 
+.menu a {
+  color: #272a31;
+}
+
 .menu img {
   width: 45px;
 }
