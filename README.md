@@ -97,9 +97,9 @@ I need to clarifying that this is not a real conference page and I’m not the a
 
 ## Live demo <a name="live-demo"></a> 
 
-> There is the link where you can see my deployed **ADD LINK**
+> There is the link where you can see my deployed project
 
-- [Portfolio Link](https://andream2429.github.io/Portfolio_setup_and_mobile_first/)
+- [Conference page](https://andream2429.github.io/Capstone_project_Conference_page/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
