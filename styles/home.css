@@ -299,13 +299,19 @@ footer {
   .navsup {
     background-color: #1d1c1c;
     width: 100%;
-    justify-content: end;
     height: 30px;
+    justify-content: space-evenly;
   }
 
   .navsup img {
     height: 20px;
     padding-left: 10px;
+  }
+
+  .navcontain {
+    width: 644px;
+    justify-content: end;
+    padding-left: 182px;
   }
 
   .ul {
@@ -321,7 +327,7 @@ footer {
   .navdesk {
     background-color: #fff;
     height: 65px;
-    justify-content: space-evenly;
+    justify-content: flex-end;
   }
 
   .divop {
